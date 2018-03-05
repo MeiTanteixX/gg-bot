@@ -20,6 +20,7 @@ module.exports = Object.freeze({
     'boobs',
     'boob',
     'penis',
+    'fart',
     'for-testing-purposes'
   ],
   colours: {
