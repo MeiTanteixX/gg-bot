@@ -37,12 +37,13 @@ straining your computer, refer to `Setting up your bot to run remotely`
 1. Create a [Heroku account](https://www.heroku.com/) - select the Free plan unless
 you expect your bot to be getting a *lot* of traffic
 2. Download the [Heroku CLI tools](https://devcenter.heroku.com/articles/heroku-cli)
-3. In your terminal of choice, navigate to the `gg-bot` folder and run `heroku login`
-Enter your login credentials for Heroku
+3. In your terminal of choice, navigate to the `gg-bot` folder (i.e. run `cd` commands - if you
+don't know what that is, google it first!) and run `heroku login`. Enter your login credentials for Heroku
 4. Run (replacing INSERT_ID_HERE with your actual bot token):
 ```
 heroku create
 heroku config:set BOT_TOKEN=INSERT_ID_HERE
+git push heroku master
 heroku ps:scale web=0
 heroku ps:scale bot=1
 git push heroku master

@@ -50,15 +50,15 @@ client.on('message', message => {
       return;
     }
 
-    if (/^\*restore( all)?$/.test(lcContent)) {
+    if (/^.restore( all)?$/.test(lcContent)) {
       if (Utils.role(Constants.adminRole, message.guild).members.has(message.author.id)) {
-        lcContent == '*restore all' ? restoreAll(message) : restoreOne(message);
+        lcContent == `${Constants.commandFlag}restore all` ? restoreAll(message) : restoreOne(message);
         return;
       }
     }
   }
 
-  if (content.startsWith('*')) {
+  if (content.startsWith(Constants.commandFlag)) {
     Commands.run(message);
   } else if (Utils.wordRegex(Constants.botName).test(lcContent)) {
     ChatBot.run(message);

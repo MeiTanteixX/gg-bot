@@ -12,7 +12,7 @@
 module.exports = Object.freeze({
   botName: 'elena',
   commandFlag: '*',
-  adminRole: 'Leaders of Hiatus Hysteria',
+  adminRole: 'Poirot Owners',
   defaultRole: 'PSB',
   developer: 'greenglasses',
   moderate: true,
