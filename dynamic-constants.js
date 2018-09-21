@@ -10,31 +10,30 @@ const Utils = require('./utils.js');
 module.exports = {
   welcomeMsg: function(member) {
     var rules = Utils.channel(Constants.channels['rules']);
-    var info = Utils.channel(Constants.channels['info']);
     var emoji = Utils.emoji(Constants.emojis['happy']);
 
     return `Welcome to the server, ${member}! ` +
-          `Be sure to check out ${rules} and ${info} for basic ` +
-          "info on the server :heart: We're always pumped to talk to new people, " +
-          "so don't feel afraid to jump in on any conversations!\n\n" +
+          `Be sure to check out ${rules}.id for basic ` +
+          "info on the server :rakesama: I guess we like talking to new people, " +
+          "so don't be shy and just jump in on any of the conversations!\n\n" +
           `I've given you the ${Constants.defaultRole} flair for now ` +
-          `- if you would like that changed, just ping a mod. ${emoji}`
+          `- if you would like that changed, perhaps you should ask our deputy teachers. ${emoji}`
     },
     firstTierWarning: function(id) {
       var lounge = Utils.channel(Constants.channels['lounge']);
 
-      return `Hey, <@${id}>! Welcoming new users is awesome and encouraged, ` +
-            `but we try to keep full-on conversations in ${lounge}. ` +
-            ':green_heart: You should head on down there!'
+      return `Hey, <@${id}>! Welcoming new members and casual chat is alright and somewhat encouraged, ` +
+            `but we should be having conversations about the best sensei in ${lounge}. ` +
+            'so move your lazy bum!'
     },
     secondTierWarning: function(id) {
-      return `Hello again, <@${id}> :wink: This channel is a great place to chat, you ` +
-             "should move your discussion here since you're here already :heart:"
+      return `Hey you! <@${id}>! This channel is the best place to chat about Wakasa-sensei, you ` +
+             "should chat here. Don't make me repeat myself!"
     },
     thirdTierWarning: function(id) {
       var emoji = Utils.emoji(Constants.emojis['sad']);
       return `You know what, <@${id}>? I don't care. I just don't care anymore. ` +
-             'You never listen to me. Find then, do what you want. ' +
+             "You don't care about sensei like I do. Fine then, do what you want. " +
              `Chat here then ${emoji}`
     }
 }

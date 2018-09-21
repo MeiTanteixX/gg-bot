@@ -26,6 +26,8 @@ module.exports = {
     client = clientToSet;
   },
   run: function(msg) {
+    console.log(`Running command ${msg.content}`);
+
     message = msg;
     options = message.content.substr(1).split(' ');
 

@@ -10,61 +10,92 @@
 
 module.exports = Object.freeze({
   answers: [
-    'Definitely',
-    'Maybe',
+    'Are you serious?',
+    "As if I'll answer that",
+    'perhaps, perhaps not',
+    'baka!',
     'Never',
     'No',
-    'No doubt about it',
+    'No doubt about that',
     'Not in a million years',
-    'Perhaps',
-    "There's a fifty-fifty chance",
-    'Yes'
+    "Yeah, sure, whatever, if that's what you want to hear",
+    "No! satisfied?",
+    "It's likely",
+    'unlikely',
+    'Duh!',
+    'https://cdn.discordapp.com/attachments/412237743536603149/412700893037854731/hmm.jpg',
+    'Of course',
+    'of course not',
+    'heh, you wish',
+    'Sadly yes',
+    'Sadly no',
+    'luckily yes',
+    'luckily no',
+    'probably',
+    'probably not',
+    'Yes',
+    'good question',
+    'Next question please',
+    "Haven't you asked enough?",
+    'What if I said yes?',
+    'What if I said no?',
+    'https://cdn.discordapp.com/attachments/372172550207307776/415457374103666698/haibarasan_sigh.png',
+    'https://cdn.discordapp.com/attachments/372172550207307776/415457369015844864/haibarasan_happy.png',
+    'https://cdn.discordapp.com/attachments/372172550207307776/415457367006904320/haibarasan_bored.png',
+    'https://cdn.discordapp.com/attachments/372172550207307776/415457364238532608/haibarasan_annoyed.png',
+    'https://cdn.discordapp.com/attachments/372172550207307776/418142753617084438/haibarasandots.JPG'
   ],
   compliments: [
-    "Aw, you're the best",
-    "I'm happy that you think that of me",
-    "That's just the pick me up I needed, thank you!",
-    "Maybe I won't grab a coffee break after all",
-    "Thanks so much :heart:",
-    "Butter me up all you want, I see right through you"
+    "Aw, I like you <:wrhaibarasanhappy:451387018279125025>",
+    "I'm happy that you think this way",
+    "That just brightened up my day a little, thank you!",
+    "Wow, I prefer this over the DB camping trips",
+    "Thanks",
+    "Come on, you can do better ~~*(Fusae brand hand-bag)*~~",
+    "No matter how hard you try, you won't get an antidote from me! <:rakesama:412680873515810817>",
+    "https://cdn.discordapp.com/attachments/372172550207307776/415257037518143490/dont_speak_ill_of_her.png"
   ],
   goodbyes: [
-    'Au revoir!',
+    'Bye',
     'See ya',
     'Goodbye',
-    'Farewell, my friend',
-    'Sayonara and goodbye'
+    'hope to see you again, classmate',
+    'Sayonara'
   ],
   hellos: [
-    'Hello, friend',
-    'Hello to you too!',
-    'Hello bonjour!',
-    'Heya, mate!',
-    'Hi!',
-    'Yo :)',
-    'Hey hey hey~',
-    'Sometimes I get tired of greeting people, leave me alone.'
+    'Hello, classmate',
+    'Hello to you too',
+    'Konichiwa!',
+    'o/',
+    'Hi',
+    'erm, do I know you?',
+    'Hello, nice to see you back here again!',
+    "Why hello there.. didn't know we had attractive students here",
+    'https://cdn.discordapp.com/attachments/412260989887840295/412645502295867402/Rumi_Hello.png'
   ],
   insults: [
     "Like you're one to talk",
-    "Ha, says *you*",
-    "I'm sorry, did you say something? I don't listen to people who lower my intelligence",
-    "Do you feel better now? Insulting me? You should be ashamed"
+    "oh yeah? let's see if you think the same when I tell Wakasa-sensei about this",
+    "sorry, I don't listen to people who have an intelligence below Kojima-san's",
+    "Do you feel better now? Insulting me? ugh!",
+    "What? why?",
+    "Won't forgive this even one millimeter" 
   ],
   nights: [
+    'night!',
     'Good night!',
-    'Have a good sleep :heart:',
-    "Don't let the bedbugs bite",
+    'Have a good long sleep',
+    "Rest well, classmate",
     'Yes, go to sleep, sleep is good',
-    "No, don't sleep, stay with me :("
+    "Wait, don't sleep yet, I'm bored",
+    'https://cdn.discordapp.com/attachments/412237743536603149/412672860906192918/Rumi_good_night.png'
   ],
-  // 5% chance of being outputted when someone asks gg-bot to say something
   tiredMsgs: [
-    "Leave me alone, I have my own life too",
-    "I don't want to, hmph",
-    "Be right back, I'm grabbing a coffee",
-    "Don't feel like it. Why? I don't know, blame my creator",
-    "Ugh. Ergh. Yeah, not gonna do it",
-    "Sorry, I have a hangover, not feeling up to it right now"
+    "yeah whatever, now leave me alone",
+    "Not interested right now",
+    "Be right back, just gonna bring the craps I give",
+    "Don't feel like it. Why? I don't know, blame Gin",
+    "Ugh. Ergh. Yeah, not gonna do that",
+    "Sorry, not in the mood right now. Higo lost."
   ]
 });
