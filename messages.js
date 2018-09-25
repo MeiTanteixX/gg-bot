@@ -11,6 +11,7 @@
 module.exports = Object.freeze({
   answers: [
     'Are you serious?',
+    'Are you stupid?',
     "As if I'll answer that",
     'perhaps, perhaps not',
     'baka!',
@@ -29,8 +30,8 @@ module.exports = Object.freeze({
     'heh, you wish',
     'Sadly yes',
     'Sadly no',
-    'luckily yes',
-    'luckily no',
+    'luckily yes <:wrhaibarasanhappy:451387018279125025>',
+    'luckily no <:haibarasan:415274294298279936>',
     'probably',
     'probably not',
     'Yes',
@@ -65,7 +66,7 @@ module.exports = Object.freeze({
   hellos: [
     'Hello, classmate',
     'Hello to you too',
-    'Konichiwa!',
+    'Konnichiwa!',
     'o/',
     'Hi',
     'erm, do I know you?',
